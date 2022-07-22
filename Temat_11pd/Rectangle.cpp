@@ -6,6 +6,12 @@ Rectangle::Rectangle(Point p, double width, double height) : Point(p)
     this->height = height;
 }
 
+Rectangle::Rectangle(int x, int y, double width, double height) : Point(x, y)
+{
+    this->width = width;
+    this->height = height;
+}
+
 void Rectangle::setWidth(double width)
 {
     this->width = width;

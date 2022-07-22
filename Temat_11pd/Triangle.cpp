@@ -7,6 +7,13 @@ Triangle::Triangle(Point p, double side1, double side2, double angle_between) : 
     this->angle_between = angle_between;
 }
 
+Triangle::Triangle(int x, int y, double side1, double side2, double angle_between) : Point(x, y)
+{
+    this->side1 = side1;
+    this->side2 = side2;
+    this->angle_between = angle_between;
+}
+
 void Triangle::setSide1(double side1)
 {
     this->side1 = side1;

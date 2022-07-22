@@ -12,6 +12,7 @@ protected:
 
 public:
     Triangle(Point p, double side1, double side2, double angle_between);
+    Triangle(int x, int y, double side1, double side2, double angle_between);
 
     void setSide1(double side1);
     void setSide2(double side2);

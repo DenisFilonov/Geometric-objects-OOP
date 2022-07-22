@@ -9,6 +9,7 @@ protected:
 
 public:
     Rectangle(Point p, double width, double height);
+    Rectangle(int x, int y, double width, double height);
 
     void setWidth(double width);
     void setHeight(double height);

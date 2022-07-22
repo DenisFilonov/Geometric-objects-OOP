@@ -5,6 +5,11 @@ Circle::Circle(Point p, double radius) : Point(p)
     this->radius = radius;
 }
 
+Circle::Circle(int x, int y, double radius) : Point(x, y)
+{
+    this->radius = radius;
+}
+
 void Circle::setRadius(double radius)
 {
     this->radius = radius;
