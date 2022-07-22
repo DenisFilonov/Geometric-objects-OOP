@@ -46,7 +46,8 @@ double Triangle::getAngleBetween() const
 
 double Triangle::getTrianglesArea() const
 {
-    return 0.5 * side1 * side2 * sin(angle_between); // S = 1/2 a b sin(alpha)
+    //return 0.5 * side1 * side2 * sin(angle_between); // S = 1/2 a b sin(alpha)
+    return 0.5 * side1 * side2 * sin(angle_between * 3.14 / 180);
 }
 
 void Triangle::showTriangle() const
